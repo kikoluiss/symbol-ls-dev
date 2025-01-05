@@ -44,13 +44,26 @@ const THEME = {
  * Fonts
  * @tutorial https://docs.symbols.app/font
  */
-const FONT = {}
+const FONT = {
+  Europa: [
+    {
+      url: 'https://github.com/limbforge/website/blob/master/app/assets/fonts/europa-bold-webfont.woff2',
+      fontWeight: 600
+    },
+    {
+      url: 'https://github.com/limbforge/website/blob/master/app/assets/fonts/europa-regular-webfont.woff2',
+      fontWeight: 400
+    }
+  ]
+}
 
 /**
  * Font families
  * @tutorial https://docs.symbols.app/font
  */
-const FONT_FAMILY = {}
+const FONT_FAMILY = {
+
+}
 
 /**
  * Typography
